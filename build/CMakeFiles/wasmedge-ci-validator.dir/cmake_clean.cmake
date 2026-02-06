@@ -3,6 +3,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.o.d"
   "CMakeFiles/wasmedge-ci-validator.dir/src/main.cpp.o"
   "CMakeFiles/wasmedge-ci-validator.dir/src/main.cpp.o.d"
+  "CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o"
+  "CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o.d"
+  "CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o"
+  "CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o.d"
   "wasmedge-ci-validator"
   "wasmedge-ci-validator.pdb"
 )

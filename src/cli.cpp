@@ -1,7 +1,11 @@
 #include "cli.h"
+#include "scanner.h"
+#include "validator.h"
+
 #include <filesystem>
 #include <iostream>
 #include <string>
+#include <vector>
 
 namespace fs = std::filesystem;
 
@@ -35,12 +39,40 @@ int runCLI(int argc, char *argv[]) {
       return 1;
     }
 
-    // Phase 1 Success Requirement
-    std::cout << "Scanning directory: " << fs::absolute(dirPath).string()
-              << std::endl;
+    // Phase 2: Scan
+    std::vector<std::string> files =
+        scanDirectory(fs::absolute(dirPath).string());
+
+    if (files.empty()) {
+      std::cout << "No .wasm files found in " << pathStr << std::endl;
+      return 0;
+    }
+
+    std::cout << "Found " << files.size() << " WASM files." << std::endl;
+
+    // Phase 3: Validate
+    int failureCount = 0;
+    for (const auto &file : files) {
+      ValidationResult res = validateWasmFile(file);
+      if (res.valid) {
+        std::cout << "✔ " << file << std::endl;
+      } else {
+        std::cout << "✖ " << file << " (" << res.message << ")" << std::endl;
+        failureCount++;
+      }
+    }
+
+    if (failureCount > 0) {
+      std::cerr << "Validation failed for " << failureCount << " file(s)."
+                << std::endl;
+      return 1;
+    }
 
   } catch (const fs::filesystem_error &e) {
     std::cerr << "Error accessing filesystem: " << e.what() << std::endl;
+    return 1;
+  } catch (const std::exception &e) {
+    std::cerr << "Unexpected error: " << e.what() << std::endl;
     return 1;
   }
 

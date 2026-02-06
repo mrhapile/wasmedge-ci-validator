@@ -1172,8 +1172,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT"
-      binary: "/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT"
+      source: "/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI"
+      binary: "/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1186,20 +1186,20 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT'
+        Change Dir: '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_7a3b0/fast
-        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_7a3b0.dir/build.make CMakeFiles/cmTC_7a3b0.dir/build
-        gmake[1]: Entering directory '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT'
-        Building CXX object CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_d5c8a/fast
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_d5c8a.dir/build.make CMakeFiles/cmTC_d5c8a.dir/build
+        gmake[1]: Entering directory '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI'
+        Building CXX object CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin25.0.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /Users/mrhapile/.wasmedge/include -cxx-isystem /Users/mrhapile/.wasmedge/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /Users/mrhapile/.wasmedge/include -cxx-isystem /Users/mrhapile/.wasmedge/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin25.0.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1214,13 +1214,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_7a3b0
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a3b0.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_d5c8a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5c8a.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin25.0.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7a3b0 -L/Users/mrhapile/.wasmedge/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_d5c8a -L/Users/mrhapile/.wasmedge/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 06:36:05 Dec  2 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1233,8 +1233,8 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7a3b0
-        gmake[1]: Leaving directory '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT'
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d5c8a
+        gmake[1]: Leaving directory '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI'
         
       exitCode: 0
   -
@@ -1280,20 +1280,20 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT']
+        ignore line: [Change Dir: '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_7a3b0/fast]
-        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_7a3b0.dir/build.make CMakeFiles/cmTC_7a3b0.dir/build]
-        ignore line: [gmake[1]: Entering directory '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT']
-        ignore line: [Building CXX object CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_d5c8a/fast]
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_d5c8a.dir/build.make CMakeFiles/cmTC_d5c8a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin25.0.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-XWKSQT -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /Users/mrhapile/.wasmedge/include -cxx-isystem /Users/mrhapile/.wasmedge/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles/CMakeScratch/TryCompile-Ca9GKI -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /Users/mrhapile/.wasmedge/include -cxx-isystem /Users/mrhapile/.wasmedge/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin25.0.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1308,13 +1308,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_7a3b0]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a3b0.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_d5c8a]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5c8a.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin25.0.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_7a3b0 -L/Users/mrhapile/.wasmedge/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_d5c8a -L/Users/mrhapile/.wasmedge/lib -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1331,13 +1331,13 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_7a3b0] ==> ignore
+          arg [cmTC_d5c8a] ==> ignore
           arg [-L/Users/mrhapile/.wasmedge/lib] ==> dir [/Users/mrhapile/.wasmedge/lib]
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_7a3b0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d5c8a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1373,4 +1373,424 @@ events:
       will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
       LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
       TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:19 (find_path)"
+    mode: "path"
+    variable: "WASMEDGE_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "wasmedge/wasmedge.h"
+    candidate_directories:
+      - "/Users/mrhapile/.krew/bin/include/"
+      - "/Users/mrhapile/.krew/bin/"
+      - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin/include/"
+      - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin/"
+      - "/Users/mrhapile/.antigravity/antigravity/bin/include/"
+      - "/Users/mrhapile/.antigravity/antigravity/bin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/include/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/sbin/include/"
+      - "/usr/sbin/"
+      - "/sbin/include/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/usr/local/go/bin/include/"
+      - "/usr/local/go/bin/"
+      - "/opt/homebrew/bin/include/"
+      - "/opt/homebrew/bin/"
+      - "/Users/mrhapile/.cargo/bin/include/"
+      - "/Users/mrhapile/.cargo/bin/"
+      - "/Users/mrhapile/.wasmedge/bin/include/"
+      - "/Users/mrhapile/.wasmedge/bin/"
+      - "/Users/mrhapile/go/bin/include/"
+      - "/Users/mrhapile/go/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/include/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/include/"
+      - "/include/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/include/"
+      - "/sw/include/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/include/"
+      - "/opt/local/include/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+      - "/Users/mrhapile/Library/Frameworks/include/"
+      - "/Users/mrhapile/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/include/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/include/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/include/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/include/"
+      - "/System/Library/Frameworks/"
+      - "/Users/mrhapile/.wasmedge/include/"
+      - "/Users/mrhapile/.wasmedge/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+    searched_directories:
+      - "/Users/mrhapile/.krew/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.krew/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.antigravity/antigravity/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.antigravity/antigravity/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/System/Cryptexes/App/usr/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/System/Cryptexes/App/usr/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/sbin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/sbin/wasmedge.framework/Headers/wasmedge.h"
+      - "/sbin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/sbin/wasmedge.framework/Headers/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/go/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/go/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/homebrew/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/homebrew/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.cargo/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.cargo/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.wasmedge/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.wasmedge/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/go/bin/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/go/bin/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/homebrew/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/homebrew/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/homebrew/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/homebrew/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/wasmedge.framework/Headers/wasmedge.h"
+      - "/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/X11R6/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/X11R6/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/X11R6/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/X11R6/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/pkg/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/pkg/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/pkg/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/pkg/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/wasmedge.framework/Headers/wasmedge.h"
+      - "/sw/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/sw/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/sw/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/sw/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/local/include/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/local/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/local/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/opt/local/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/include/X11/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/include/X11/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/Library/Frameworks/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/Library/Frameworks/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Frameworks/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Library/Frameworks/wasmedge.framework/Headers/wasmedge.h"
+      - "/Network/Library/Frameworks/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Network/Library/Frameworks/wasmedge.framework/Headers/wasmedge.h"
+      - "/System/Library/Frameworks/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/System/Library/Frameworks/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.wasmedge/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.wasmedge/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/local/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/include/wasmedge.framework/Headers/wasmedge.h"
+      - "/usr/wasmedge.framework/Headers/wasmedge.h"
+      - "/Users/mrhapile/.krew/bin/include/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.krew/bin/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin/include/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.antigravity/antigravity/bin/include/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.antigravity/antigravity/bin/wasmedge/wasmedge.h"
+      - "/usr/local/bin/include/wasmedge/wasmedge.h"
+      - "/usr/local/bin/wasmedge/wasmedge.h"
+      - "/System/Cryptexes/App/usr/bin/include/wasmedge/wasmedge.h"
+      - "/System/Cryptexes/App/usr/bin/wasmedge/wasmedge.h"
+      - "/usr/bin/include/wasmedge/wasmedge.h"
+      - "/usr/bin/wasmedge/wasmedge.h"
+      - "/bin/include/wasmedge/wasmedge.h"
+      - "/bin/wasmedge/wasmedge.h"
+      - "/usr/sbin/include/wasmedge/wasmedge.h"
+      - "/usr/sbin/wasmedge/wasmedge.h"
+      - "/sbin/include/wasmedge/wasmedge.h"
+      - "/sbin/wasmedge/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/include/wasmedge/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/wasmedge/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/include/wasmedge/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/wasmedge/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/include/wasmedge/wasmedge.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/wasmedge/wasmedge.h"
+      - "/usr/local/go/bin/include/wasmedge/wasmedge.h"
+      - "/usr/local/go/bin/wasmedge/wasmedge.h"
+      - "/opt/homebrew/bin/include/wasmedge/wasmedge.h"
+      - "/opt/homebrew/bin/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.cargo/bin/include/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.cargo/bin/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.wasmedge/bin/include/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/.wasmedge/bin/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/go/bin/include/wasmedge/wasmedge.h"
+      - "/Users/mrhapile/go/bin/wasmedge/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/include/wasmedge/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wasmedge/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wasmedge/wasmedge.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/wasmedge/wasmedge.h"
+      - "/opt/homebrew/include/include/wasmedge/wasmedge.h"
+    found: "/opt/homebrew/include/"
+    search_context:
+      ENV{PATH}:
+        - "/Users/mrhapile/.krew/bin"
+        - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin"
+        - "/Users/mrhapile/.antigravity/antigravity/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/mrhapile/.krew/bin"
+        - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin"
+        - "/Users/mrhapile/.antigravity/antigravity/bin"
+        - "/Users/mrhapile/.cargo/bin"
+        - "/Users/mrhapile/.wasmedge/bin"
+        - "/Users/mrhapile/go/bin"
+        - "/Users/mrhapile/go/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:24 (find_library)"
+    mode: "library"
+    variable: "WASMEDGE_LIB"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "wasmedge"
+    candidate_directories:
+      - "/Users/mrhapile/.krew/bin/"
+      - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin/"
+      - "/Users/mrhapile/.antigravity/antigravity/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/go/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/mrhapile/.cargo/bin/"
+      - "/Users/mrhapile/.wasmedge/bin/"
+      - "/Users/mrhapile/go/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/Users/mrhapile/.wasmedge/lib/"
+      - "/Users/mrhapile/.wasmedge/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+    searched_directories:
+      - "/Users/mrhapile/.krew/bin/"
+      - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin/"
+      - "/Users/mrhapile/.antigravity/antigravity/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/go/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/mrhapile/.cargo/bin/"
+      - "/Users/mrhapile/.wasmedge/bin/"
+      - "/Users/mrhapile/go/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+    found: "/opt/homebrew/lib/libwasmedge.dylib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/mrhapile/.krew/bin"
+        - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin"
+        - "/Users/mrhapile/.antigravity/antigravity/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/mrhapile/.krew/bin"
+        - "/Users/mrhapile/.nvm/versions/node/v24.12.0/bin"
+        - "/Users/mrhapile/.antigravity/antigravity/bin"
+        - "/Users/mrhapile/.cargo/bin"
+        - "/Users/mrhapile/.wasmedge/bin"
+        - "/Users/mrhapile/go/bin"
+        - "/Users/mrhapile/go/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
 ...

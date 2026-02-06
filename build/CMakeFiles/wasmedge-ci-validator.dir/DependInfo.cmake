@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mrhapile/project/wasmedge-ci-validator/src/cli.cpp" "CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.o" "gcc" "CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.o.d"
   "/Users/mrhapile/project/wasmedge-ci-validator/src/main.cpp" "CMakeFiles/wasmedge-ci-validator.dir/src/main.cpp.o" "gcc" "CMakeFiles/wasmedge-ci-validator.dir/src/main.cpp.o.d"
+  "/Users/mrhapile/project/wasmedge-ci-validator/src/scanner.cpp" "CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o" "gcc" "CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o.d"
+  "/Users/mrhapile/project/wasmedge-ci-validator/src/validator.cpp" "CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o" "gcc" "CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

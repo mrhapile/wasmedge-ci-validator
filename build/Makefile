@@ -177,6 +177,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wasmedge-ci-validator.dir/build.make CMakeFiles/wasmedge-ci-validator.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/scanner.o: src/scanner.cpp.o
+.PHONY : src/scanner.o
+
+# target to build an object file
+src/scanner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wasmedge-ci-validator.dir/build.make CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o
+.PHONY : src/scanner.cpp.o
+
+src/scanner.i: src/scanner.cpp.i
+.PHONY : src/scanner.i
+
+# target to preprocess a source file
+src/scanner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wasmedge-ci-validator.dir/build.make CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.i
+.PHONY : src/scanner.cpp.i
+
+src/scanner.s: src/scanner.cpp.s
+.PHONY : src/scanner.s
+
+# target to generate assembly for a file
+src/scanner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wasmedge-ci-validator.dir/build.make CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.s
+.PHONY : src/scanner.cpp.s
+
+src/validator.o: src/validator.cpp.o
+.PHONY : src/validator.o
+
+# target to build an object file
+src/validator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wasmedge-ci-validator.dir/build.make CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o
+.PHONY : src/validator.cpp.o
+
+src/validator.i: src/validator.cpp.i
+.PHONY : src/validator.i
+
+# target to preprocess a source file
+src/validator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wasmedge-ci-validator.dir/build.make CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.i
+.PHONY : src/validator.cpp.i
+
+src/validator.s: src/validator.cpp.s
+.PHONY : src/validator.s
+
+# target to generate assembly for a file
+src/validator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wasmedge-ci-validator.dir/build.make CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.s
+.PHONY : src/validator.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +240,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/scanner.o"
+	@echo "... src/scanner.i"
+	@echo "... src/scanner.s"
+	@echo "... src/validator.o"
+	@echo "... src/validator.i"
+	@echo "... src/validator.s"
 .PHONY : help
 
 

@@ -100,19 +100,52 @@ CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrhapile/project/wasmedge-ci-validator/src/cli.cpp -o CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.s
 
+CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o: CMakeFiles/wasmedge-ci-validator.dir/flags.make
+CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o: /Users/mrhapile/project/wasmedge-ci-validator/src/scanner.cpp
+CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o: CMakeFiles/wasmedge-ci-validator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o -MF CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o.d -o CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o -c /Users/mrhapile/project/wasmedge-ci-validator/src/scanner.cpp
+
+CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrhapile/project/wasmedge-ci-validator/src/scanner.cpp > CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.i
+
+CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrhapile/project/wasmedge-ci-validator/src/scanner.cpp -o CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.s
+
+CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o: CMakeFiles/wasmedge-ci-validator.dir/flags.make
+CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o: /Users/mrhapile/project/wasmedge-ci-validator/src/validator.cpp
+CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o: CMakeFiles/wasmedge-ci-validator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o -MF CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o.d -o CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o -c /Users/mrhapile/project/wasmedge-ci-validator/src/validator.cpp
+
+CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrhapile/project/wasmedge-ci-validator/src/validator.cpp > CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.i
+
+CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrhapile/project/wasmedge-ci-validator/src/validator.cpp -o CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.s
+
 # Object files for target wasmedge-ci-validator
 wasmedge__ci__validator_OBJECTS = \
 "CMakeFiles/wasmedge-ci-validator.dir/src/main.cpp.o" \
-"CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.o"
+"CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.o" \
+"CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o" \
+"CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o"
 
 # External object files for target wasmedge-ci-validator
 wasmedge__ci__validator_EXTERNAL_OBJECTS =
 
 wasmedge-ci-validator: CMakeFiles/wasmedge-ci-validator.dir/src/main.cpp.o
 wasmedge-ci-validator: CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.o
+wasmedge-ci-validator: CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o
+wasmedge-ci-validator: CMakeFiles/wasmedge-ci-validator.dir/src/validator.cpp.o
 wasmedge-ci-validator: CMakeFiles/wasmedge-ci-validator.dir/build.make
+wasmedge-ci-validator: /opt/homebrew/lib/libwasmedge.dylib
 wasmedge-ci-validator: CMakeFiles/wasmedge-ci-validator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable wasmedge-ci-validator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mrhapile/project/wasmedge-ci-validator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable wasmedge-ci-validator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wasmedge-ci-validator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

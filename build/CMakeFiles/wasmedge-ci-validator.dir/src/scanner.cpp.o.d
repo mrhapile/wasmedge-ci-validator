@@ -1,6 +1,5 @@
-CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.o: \
-  /Users/mrhapile/project/wasmedge-ci-validator/src/cli.cpp \
-  /Users/mrhapile/project/wasmedge-ci-validator/include/cli.h \
+CMakeFiles/wasmedge-ci-validator.dir/src/scanner.cpp.o: \
+  /Users/mrhapile/project/wasmedge-ci-validator/src/scanner.cpp \
   /Users/mrhapile/project/wasmedge-ci-validator/include/scanner.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
@@ -753,7 +752,6 @@ CMakeFiles/wasmedge-ci-validator.dir/src/cli.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/mrhapile/project/wasmedge-ci-validator/include/validator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
