@@ -52,19 +52,28 @@ int runCLI(int argc, char *argv[]) {
 
     // Phase 3: Validate
     int failureCount = 0;
+    int successCount = 0;
+
     for (const auto &file : files) {
       ValidationResult res = validateWasmFile(file);
       if (res.valid) {
         std::cout << "✔ " << file << std::endl;
+        successCount++;
       } else {
         std::cout << "✖ " << file << " (" << res.message << ")" << std::endl;
         failureCount++;
       }
     }
 
+    std::cout << "\nSummary:" << std::endl;
+    std::cout << "\nTotal WASM files: " << files.size() << std::endl;
+    std::cout << "\nValid: " << successCount << std::endl;
+    std::cout << "\nInvalid: " << failureCount << std::endl;
+
     if (failureCount > 0) {
-      std::cerr << "Validation failed for " << failureCount << " file(s)."
-                << std::endl;
+      std::cerr << "\nValidation failed: " << failureCount
+                << " invalid WASM file" << (failureCount == 1 ? "" : "s")
+                << " found" << std::endl;
       return 1;
     }
 

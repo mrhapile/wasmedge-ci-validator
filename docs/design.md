@@ -1,4 +1,4 @@
-# WasmEdge CI Validator: Phase 0 Design Specification
+# WasmEdge CI Validator: Design Specification
 
 ## 1. Problem Statement
 
@@ -21,7 +21,7 @@ This tool solves these issues by providing a dedicated, directory-based validato
 *   **Directory Scanning:** Recursive traversal of the target directory to locate all files with the `.wasm` extension.
 *   **Pure Validation:** Using the WasmEdge C API (`WasmEdge_LoaderContext` and `WasmEdge_ValidatorContext`) to verify binary format and bytecode safety.
 *   **CI Integration:** deterministic exit codes (0 for success, 1 for failure/error).
-*   **Reporting:** Simple, parseable generic output to `stdout`/`stderr` indicating which specific files failed.
+*   **Reporting:** Simple, parseable generic output to `stdout`/`stderr` indicating which specific files failed, followed by a summary.
 
 ### Out of Scope
 *   **Execution:** No WASM functions will be invoked, and no modules will be instantiated.
@@ -32,11 +32,11 @@ This tool solves these issues by providing a dedicated, directory-based validato
 
 ## 4. Success Criteria
 
-The Phase 0 implementation is considered complete and successful when:
+The project is considered complete when:
 1.  The tool compiles to a single binary on standard POSIX systems (Linux/macOS).
 2.  Running `wasmedge-ci-validator ./valid-wasm-dir` returns exit code **0**.
 3.  Running `wasmedge-ci-validator ./mixed-wasm-dir` (containing corrupt/invalid WASM) detects the invalid files, prints error details, and returns exit code **1**.
-4.  Running `wasmedge-ci-validator` on a path with no WASM files handles the case gracefully (e.g., warns and exits 0, or errors depending on final spec preference, defaulted to success if scanning empty).
+4.  The output contains a clear "Summary" section listing total valid/invalid counts.
 5.  No "Hello World" or execution logic is triggered during the process.
 
 ## 5. High-Level Design
@@ -55,4 +55,4 @@ The application logic follows a linear pipeline:
 
 ## 6. Relation to WasmEdge CLI
 
-This project serves as a focused reference implementation for "pure validation" using the WasmEdge SDK. It motivates the potential addition of a `validate` subcommand to the upstream `wasmedge` CLI by demonstrating the utility of checking binary correctness without execution. By keeping the codebase minimal and open, it provides a clear template for other developers integrating WasmEdge into custom CI workfloes.
+This project serves as a focused reference implementation for "pure validation" using the WasmEdge SDK. It motivates the potential addition of a `validate` subcommand to the upstream `wasmedge` CLI by demonstrating the utility of checking binary correctness without execution. By keeping the codebase minimal and open, it provides a clear template for other developers integrating WasmEdge into custom CI workflows.
