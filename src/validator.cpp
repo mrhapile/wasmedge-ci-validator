@@ -8,7 +8,7 @@ ValidationResult validateWasmFile(const std::string &filePath) {
   WasmEdge_ConfigureContext *conf = WasmEdge_ConfigureCreate();
 
   // 2. VM Create
-  WasmEdge_VMContext *vm = WasmEdge_VMCreate(conf, NULL);
+  WasmEdge_VMContext *vm = WasmEdge_VMCreate(conf, nullptr);
 
   ValidationResult result = {true, ""};
 
